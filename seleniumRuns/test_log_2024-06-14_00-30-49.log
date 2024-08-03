@@ -1,0 +1,10 @@
+2024-06-14 00:30:50,840 - INFO - WebDriver initialized.
+2024-06-14 00:30:52,834 - INFO - Opened URL element: url=https://www.google.com in 1992.66 ms
+2024-06-14 00:30:52,845 - INFO - Found element: name=q in 11.49 ms
+2024-06-14 00:30:52,932 - INFO - Sent keys to element: name=q in 97.90 ms - Comment: \u0539\u0565\u057d\u0569\u056b \u0570\u0561\u0574\u0561\u0580 \u057d\u0561
+2024-06-14 00:30:52,947 - INFO - Found element: name=btnK in 9.97 ms
+2024-06-14 00:30:53,750 - INFO - Clicked element: name=btnK in 813.48 ms
+2024-06-14 00:30:56,144 - INFO - WebDriver quit element: driver=driver in 2391.17 ms
+2024-06-14 00:30:56,144 - INFO - Total execution time: 5302.69 ms
+ver in 2391.17 ms
+2024-06-14 00:30:56,144 - INFO - Total execution time: 5302.69 ms

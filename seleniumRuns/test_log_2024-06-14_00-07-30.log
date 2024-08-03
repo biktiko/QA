@@ -1,0 +1,10 @@
+2024-06-14 00:07:31,398 - INFO - WebDriver initialized.
+2024-06-14 00:07:33,506 - INFO - Opened URL: https://www.google.com in 2108.56 ms
+2024-06-14 00:07:33,524 - INFO - Element found: name=q in 18.22 ms
+2024-06-14 00:07:33,632 - INFO - Sent keys to element: name=q - Text: Hello World in 126.16 ms
+2024-06-14 00:07:33,636 - INFO - Element found: name=btnK in 4.10 ms
+2024-06-14 00:07:34,419 - INFO - Clicked element: name=btnK in 785.42 ms
+2024-06-14 00:07:36,844 - INFO - WebDriver quit in 2425.60 ms
+2024-06-14 00:07:36,844 - INFO - Total execution time: 5446.75 ms
+ebDriver quit in 2425.60 ms
+2024-06-14 00:07:36,844 - INFO - Total execution time: 5446.75 ms

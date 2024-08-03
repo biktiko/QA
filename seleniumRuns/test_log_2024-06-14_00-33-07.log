@@ -1,0 +1,31 @@
+2024-06-14 00:33:07,376 - INFO - WebDriver initialized.
+2024-06-14 00:33:10,804 - INFO - Opened URL element: url=https://www.google.com in 3426.81 ms
+2024-06-14 00:33:10,816 - INFO - Found element element: name=q in 11.80 ms - Comment: Թեսթի համար սա
+2024-06-14 00:33:10,886 - INFO - Sent keys to element: name=q in 68.45 ms - Comment: Թեսթի համար սա
+2024-06-14 00:33:10,898 - INFO - Found element element: name=btnK in 12.44 ms
+2024-06-14 00:33:10,912 - ERROR - Error clicking element: name=btnK - Message: element not interactable
+  (Session info: chrome=126.0.6478.57)
+Stacktrace:
+	GetHandleVerifier [0x00007FF70B293E62+31618]
+	(No symbol) [0x00007FF70B20B0C9]
+	(No symbol) [0x00007FF70B0C86B9]
+	(No symbol) [0x00007FF70B1198B2]
+	(No symbol) [0x00007FF70B10C281]
+	(No symbol) [0x00007FF70B13D10A]
+	(No symbol) [0x00007FF70B10BBA6]
+	(No symbol) [0x00007FF70B13D320]
+	(No symbol) [0x00007FF70B15CA80]
+	(No symbol) [0x00007FF70B13CEB3]
+	(No symbol) [0x00007FF70B10A46B]
+	(No symbol) [0x00007FF70B10B001]
+	GetHandleVerifier [0x00007FF70B59A03D+3202397]
+	GetHandleVerifier [0x00007FF70B5E6A5D+3516285]
+	GetHandleVerifier [0x00007FF70B5DC4D0+3473904]
+	GetHandleVerifier [0x00007FF70B345D66+760454]
+	(No symbol) [0x00007FF70B216B6F]
+	(No symbol) [0x00007FF70B211D04]
+	(No symbol) [0x00007FF70B211E92]
+	(No symbol) [0x00007FF70B20123F]
+	BaseThreadInitThunk [0x00007FFA2704257D+29]
+	RtlUserThreadStart [0x00007FFA27F6AF28+40]
+

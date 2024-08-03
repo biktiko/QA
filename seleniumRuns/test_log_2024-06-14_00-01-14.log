@@ -1,0 +1,10 @@
+2024-06-14 00:01:15,269 - INFO - WebDriver initialized.
+2024-06-14 00:01:17,991 - INFO - Opened URL: https://www.google.com in 2721.00 ms
+2024-06-14 00:01:18,012 - INFO - Element found: css selector=#APjFqb in 19.79 ms
+2024-06-14 00:01:18,122 - INFO - Sent keys to element: css selector=#APjFqb - Text: Hello World in 129.60 ms
+2024-06-14 00:01:18,131 - INFO - Element found: name=btnK in 9.07 ms
+2024-06-14 00:01:19,027 - INFO - Clicked element: name=btnK in 905.25 ms
+2024-06-14 00:01:21,428 - INFO - WebDriver quit in 2400.24 ms
+2024-06-14 00:01:21,428 - INFO - Total execution time: 6157.14 ms
+428 - INFO - WebDriver quit in 2400.24 ms
+2024-06-14 00:01:21,428 - INFO - Total execution time: 6157.14 ms

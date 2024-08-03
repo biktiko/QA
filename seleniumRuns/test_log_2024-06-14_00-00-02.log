@@ -1,0 +1,69 @@
+2024-06-14 00:00:04,011 - INFO - WebDriver initialized.
+2024-06-14 00:00:06,950 - INFO - Opened URL: https://www.google.com in 2938.96 ms
+2024-06-14 00:00:10,080 - ERROR - Error finding element: css selector=#APjFq
+2024-06-14 00:00:10,085 - ERROR - Traceback (most recent call last):
+  File "c:\WorkPlace\QA\seleniumTest.py", line 58, in find_element
+    element = WebDriverWait(self.driver, timeout).until(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\miniconda3\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF70B293E62+31618]
+	(No symbol) [0x00007FF70B20B0C9]
+	(No symbol) [0x00007FF70B0C888A]
+	(No symbol) [0x00007FF70B118524]
+	(No symbol) [0x00007FF70B11862C]
+	(No symbol) [0x00007FF70B15F787]
+	(No symbol) [0x00007FF70B13D14F]
+	(No symbol) [0x00007FF70B15CA80]
+	(No symbol) [0x00007FF70B13CEB3]
+	(No symbol) [0x00007FF70B10A46B]
+	(No symbol) [0x00007FF70B10B001]
+	GetHandleVerifier [0x00007FF70B59A03D+3202397]
+	GetHandleVerifier [0x00007FF70B5E6A5D+3516285]
+	GetHandleVerifier [0x00007FF70B5DC4D0+3473904]
+	GetHandleVerifier [0x00007FF70B345D66+760454]
+	(No symbol) [0x00007FF70B216B6F]
+	(No symbol) [0x00007FF70B211D04]
+	(No symbol) [0x00007FF70B211E92]
+	(No symbol) [0x00007FF70B20123F]
+	BaseThreadInitThunk [0x00007FFA2704257D+29]
+	RtlUserThreadStart [0x00007FFA27F6AF28+40]
+
+
+2024-06-14 00:00:10,173 - ERROR - Error sending keys to element: css selector=#APjFq
+2024-06-14 00:00:10,173 - ERROR - Traceback (most recent call last):
+  File "c:\WorkPlace\QA\seleniumTest.py", line 105, in write
+    element = self.find_element(by, value, timeout)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\WorkPlace\QA\seleniumTest.py", line 58, in find_element
+    element = WebDriverWait(self.driver, timeout).until(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\miniconda3\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF70B293E62+31618]
+	(No symbol) [0x00007FF70B20B0C9]
+	(No symbol) [0x00007FF70B0C888A]
+	(No symbol) [0x00007FF70B118524]
+	(No symbol) [0x00007FF70B11862C]
+	(No symbol) [0x00007FF70B15F787]
+	(No symbol) [0x00007FF70B13D14F]
+	(No symbol) [0x00007FF70B15CA80]
+	(No symbol) [0x00007FF70B13CEB3]
+	(No symbol) [0x00007FF70B10A46B]
+	(No symbol) [0x00007FF70B10B001]
+	GetHandleVerifier [0x00007FF70B59A03D+3202397]
+	GetHandleVerifier [0x00007FF70B5E6A5D+3516285]
+	GetHandleVerifier [0x00007FF70B5DC4D0+3473904]
+	GetHandleVerifier [0x00007FF70B345D66+760454]
+	(No symbol) [0x00007FF70B216B6F]
+	(No symbol) [0x00007FF70B211D04]
+	(No symbol) [0x00007FF70B211E92]
+	(No symbol) [0x00007FF70B20123F]
+	BaseThreadInitThunk [0x00007FFA2704257D+29]
+	RtlUserThreadStart [0x00007FFA27F6AF28+40]
+
+
